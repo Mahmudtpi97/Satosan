@@ -1,0 +1,602 @@
+@media all and (min-width: 1500px){
+    /*Header Area*/
+.sato-san-img {
+	max-width:550px;
+}
+
+}
+
+@media all and (max-width: 1300px){
+
+/*Header Area*/
+
+/*Service Area*/
+ .service-text h3 {
+	font-size: 18px;
+	margin-top:3rem;
+}
+.service-bottom-background {
+	margin-left: -25rem;
+	margin-top: -15rem;
+}
+
+
+}
+
+@media all and (max-width: 1200px){
+.container-margin {
+	padding: 0 3rem;
+}
+.section-heading h2 {
+	font-size: 25px;
+}
+.section-heading p {
+	font-size:17px;
+}
+/*Header Area*/
+.header-butto-area {
+	right: 7%;
+}
+.sato-background {
+	margin-left: -20rem;
+}
+/*Chef Area*/
+.chef-food-cokker-area {
+	padding-bottom: 17rem;
+}
+.chef-food-header {
+	 max-width:100%; 
+	 text-align: inherit; 
+}
+.chef-food-img {
+	margin-top: 10rem;
+}
+.cooker-img {
+	margin-top:-15rem;
+}
+.cooker-text {
+	flex-basis: 50%;
+	margin-top:3rem;
+}
+/*Service Area*/
+.service {
+	padding-bottom: 30rem;
+}
+.single-text{
+	margin-left: -3rem;
+}
+.service-text h3 {
+	font-size: 12px;
+	padding-left:8rem;
+}
+.single-text.service-text-two h3 {
+	margin-top: -0.8rem;
+	margin-left:6rem;
+	padding-left: 5rem !important;
+}
+.service-bottom-background {
+	margin-left: -25rem;
+	margin-top: -15rem;
+}
+.service-button {
+	left: 50%;
+}
+/*Background*/
+.sato-san-background {
+	padding: 16rem;
+}
+
+/*Contact Area*/
+.contact-text h3 {
+	font-size: 20px;
+}
+.single-contact p {
+	font-size: 15px;
+}
+/*Footer Area*/
+.single-contact {
+	width: 80%;
+}
+
+/*Modal Area*/
+/*Chef Modal*/
+.chef-modal-header::after {
+	width: 350px;
+	height: 120px;
+}
+.chef-modal-header{
+	padding:1rem;
+}
+.chef-modal-header h5 {
+	font-size:20px;
+}
+.chef-modal-header h5 {
+	font-size: 10px;
+}
+/*Service Modal*/
+.service-modal {
+	padding:3rem;
+}
+.service-modal-header h1 {
+	font-size: 35px;
+}
+.service-modal-header h2 {
+	font-size: 30px;
+}
+.service-modal-header h3 {
+	font-size: 20px;
+}
+.service-modal-header h4 {
+	font-size: 18px;
+}
+.service-modal-text p {
+	font-size: 14px;
+}
+.service-modal-paragraph {
+	margin: 2rem 0;
+}
+.servic-modal-tipos-text {
+	margin: 2rem 0;
+}
+.servic-modal-tipos-text h3 {
+	font-size: 16px;
+}
+.servic-modal-tipos-text h4 {
+	font-size: 14px;
+}
+
+
+.service-modal-contact-text h3 {
+	font-size: 16px;
+}
+}
+
+@media all and (max-width: 991px){
+ .content-area {
+	width: calc(100% - 100px);
+}
+.container-margin {
+	padding: 0 0rem;
+}
+ .button {
+	font-size: 13px;
+	padding: .7rem 1rem;
+}
+.section-heading h2{
+	text-align:center;
+}
+.section-heading p{
+	text-align:center;
+}
+/*Header-Menuber*/
+.header-menuber {
+	width: 100%;
+	height: 100px;
+	bottom: 0%;
+	padding:1rem;
+	border-radius: 9px;
+	top: auto;
+}
+.header-nav ul {
+	display: flex;
+	justify-content: space-between;
+}
+.header-nav li a p {
+	margin: 0 2rem;
+	padding-top: 0rem;
+}
+/*Header Area*/
+.header-butto-area {
+	top: 2rem;
+}
+.logo {
+	display: none;
+}
+.sato-san-img {
+	max-width: 400px;
+}
+/*Chef Area*/
+.chef-food-area {
+	text-align: center;
+}
+.chef-food-cokker-area {
+	padding-bottom: 10rem;
+	padding:0 2rem;
+}
+.chef-food-cokker-area::after {
+	display: none;
+}
+.chef-mobile-background {
+	 display: block; 
+	 position: relative;
+	 padding:10rem 0;
+}
+.chef-mobile-background::after {
+	position: absolute;
+	content: "";
+	top: -40%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background: url(../images/chef/s_chef.png) no-repeat;
+	background-size: 100% 100%;
+	z-index: -1;
+}
+.chef-food-img {
+	display: none;
+}
+.cokker-area {
+	flex-direction: column-reverse;
+}
+.single-cook {
+	flex-basis:100%;
+	width:100%;
+}
+
+.cooker-img {
+	margin-top:1rem;
+	text-align: center;
+}
+.cooker-img img{
+	width: auto;
+}
+.cooker-text {
+	flex-basis:100%;
+}
+.cooker-button {
+	display: none;
+}
+.cooker-img-button {
+	display: block;
+}
+/*News Area*/
+.news-area {
+	margin-top: 5rem;
+}
+.news-text h3 {
+	font-size: 18px;
+	margin: 2rem 0;
+}
+/*background*/
+.sato-san-background {
+	padding: 12rem;
+}
+.service-details {
+	padding-top: 12rem;
+}
+
+.service {
+	padding-right:0;
+	margin-top:0;
+	padding-bottom:30rem;
+	justify-content: center;
+}
+.service-text {
+	flex-basis: 80%;
+}
+.single-text {
+	margin-left: 0;
+}
+.service-text h3 {
+	font-size: 14px;
+	margin-top: 0.5rem;
+	padding-right:8rem;
+}
+
+.single-text.service-text-two h3 {
+	margin-top:3rem;
+	margin-left:0; 
+	text-align: center !important;
+}
+.service-button {
+	left: 45%;
+}
+.service-food {
+	display: none;
+}
+/*Contact Area*/
+.contact-area{
+	margin-top: 2rem;
+}
+.single-contact-food-img {
+	display: none;
+}
+.single-contact {
+	 width: 100%; 
+}
+/*Footer Area*/
+.footer-area {
+	padding-bottom: 10rem;
+}
+.footer {
+	justify-content: center;
+}
+.copy-text p{
+	font-size:18px;
+}
+.single-footer {
+	margin: 1rem 0;
+}
+.footer-text a p {
+    text-align: center;
+    font-size:18px;
+
+}
+/*Modal Area*/
+.modals-area {
+	padding: 3rem;
+}
+.chef-modal-header h2 {
+	font-size: 20px;
+}
+
+.desktop-chef{
+	display: none;
+}
+.mobile-chef{
+	display: block;
+}
+
+}
+
+@media	all and (max-width: 767px){
+
+/*Header Area*/
+.header-butto-area {
+	top: 1rem;
+	display:flex;
+	justify-content: center; 
+    width: 100%;
+}
+.sato-san-img {
+	max-width: 300px;
+	margin-top: 5rem;
+}
+.header-img {
+	flex-direction: column;
+}
+.single-header-img {
+	width: 70%;
+}
+.sato-background {
+	display: none;
+}
+
+/*sato-san-background*/
+.sato-san-background {
+	padding: 9rem;
+}
+
+/*Service Area*/
+.service {
+	margin-top: 5rem;
+}
+.service-details {
+	padding: 12rem 0;
+}
+.single-text {
+	padding: 5rem 0;
+}
+.service-text h3 {
+	font-size: 15px;
+	margin-left: 0;
+	margin-top: -4rem;
+	width:100%;
+	text-align: center;
+	margin-right: 12rem;
+}
+.single-text.service-text-two h3 {
+	margin-top:-5rem;
+	margin-left: 1rem;
+}
+.service-button {
+	margin-top: 2rem;
+}
+.service-button .button{
+	padding:1rem 2rem;
+}
+.service-text-two .button {
+	margin-left: 0;
+}
+.service-food {
+	display: none;
+}
+/*News Area*/
+.single-news {
+	margin: 0 auto;
+	flex-basis: 48%;
+}
+/*Contact Area*/
+.contact-area{
+	margin-top:-10rem;
+	padding-top:6rem; 
+}
+.contact-header {
+	margin-top: 5rem;
+}
+.single-contact-food-img {
+	display: none;
+}
+.single-contact {
+	width: 100%;
+	flex-direction: column;
+	text-align: center;
+}
+.single-contact span{
+	display: none;
+}
+.contact-text h3 {
+	font-size: 18px;
+}
+.single-contact p {
+	font-size: 13px;
+}
+.subscrib-area {
+	width: 70%;
+	margin: auto;
+}
+.subscrib-area form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.subscrib-area [type="submit"] {
+	position: inherit; 
+}
+
+/*Footer Area*/
+.copy-text p {
+	text-align: center;
+}
+
+/*Modal Area*/
+.chef-modal::after {
+	display:none;
+}
+.chef-service {
+	text-align:center;
+}
+.chef-service img {
+	width: auto;
+}
+
+.cooker-button{
+	display: none;
+}
+.cooker-img-button {
+	display: block;
+	text-align: center;
+}
+
+/*Service Modal*/
+.singale-service-modal {
+	text-align: center;
+}
+.service-modal-img {
+	display: none;
+}
+
+.servic-modal-tipos-text .extra{
+	display: none;
+}
+
+.single-tipos-text {
+  align-items: center;
+  flex-direction: column;
+}
+.single-tipos-text h4{
+	margin:.5rem 0;
+}
+.single-tipos-text span{
+	display: none;
+}
+
+
+}
+
+
+@media all and (max-width: 575px){
+.content-area {
+	width: calc(100% - 50px);
+}
+.section-heading h2 {
+	font-size: 20px;
+}
+.section-heading p {
+	font-size: 13px;
+}
+ /*Header Area*/
+.header-nav li a {
+	font-size: 8px;
+}
+.header-nav li a p {
+	margin: 0 .8rem;
+}
+.main-header::after {
+	height: 150px;
+}
+/*Chef Area*/
+ .chef-food-area {
+	padding-top:3rem;
+}
+.cooker-img img {
+	width: 100%;
+}
+ .cooker-text {
+	margin-top: 1rem;
+}
+.cooker-text p {
+	font-size: 14px;
+}
+/*News Area*/
+.news-area {
+	margin-top: 0rem;
+}
+.single-news {
+	flex-basis:100%;
+}
+/*sato-san-background*/
+.sato-san-background {
+	padding: 5rem;
+}
+/*Service Area*/
+.service {
+	margin-top: 0rem;
+}
+/*Contact Area*/
+.contact-area {
+	text-align: center;
+	padding-top:3rem;
+}
+.contact-area::after {
+	top:-10%;
+	height:150px;
+}
+.contact-text h3 {
+	font-size: 16px;
+}
+.subscrib-area {
+	width: 100%;
+}
+
+/*Modal Area*/
+.modals-area {
+	padding: 2rem;
+}
+.chef-modal-header {
+	width:100%;
+	text-align: center;
+}
+.chef-modal-header h2 {
+	font-size:18px;
+}
+.chef-service img {
+	width: 100%;
+}
+
+.chef-modal .modal-close {
+	display: none;
+}
+.modal-logo {
+	display: none;
+}
+
+#mobile-chef{
+	display: none;
+}
+
+/*Service Modal*/
+.service-modal {
+	padding:5rem 1rem;
+}
+.service-modal-header h4 {
+	font-size: 14px;
+}
+.service-modal-header h1 {
+	font-size: 25px;
+}
+.service-modal-header h2 {
+	font-size: 20px;
+}
+}

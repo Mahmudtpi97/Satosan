@@ -1,0 +1,627 @@
+@font-face {
+	font-family:Montserrat-SemiBold;
+	src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+/*Css*/
+body{
+	margin: 0;
+	padding:0;
+	font-family:Keep-Calm;
+}
+
+a:hover{
+	color:inherit;
+	text-decoration: none;
+}
+.container-margin {
+	padding: 0 5rem;
+	margin: 2rem 0;
+}
+.content-area{
+	width:calc(100% - 150px);
+	margin:0 auto;
+}
+.section-heading h2 {
+	color:#040006;
+	font-size:30px;
+	font-family: 'Keep-Calm';
+	font-weight:500;
+	text-transform: uppercase;
+}
+.section-heading p{
+	font-family:'Lao-UI';
+    font-size:20px;
+    color:#040006;
+    margin:1rem 0;
+}
+.button{
+	color:#fff;
+	background:#B51923;
+	font-size:15px;
+	font-family:Keep-Calm;
+	padding: 1rem 2rem;
+	border-radius: 9px;
+	transition:1s;
+	border:none;
+}
+.button:hover{
+	background:#040006;
+	color:#B51923;
+}
+
+/************************/
+/*Sato San Page [index.html]*/
+/************************/
+
+/*.main-content-area {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}*/
+
+/*header-menuber*/
+/*.menu-area {
+	max-width: 20%;
+	flex-basis: 20%;
+}*/
+
+.header-menuber {
+	background: #040006;
+	width: 100px;
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	height: 100%;
+	z-index:9;
+	text-align: center;
+	padding:2rem 1rem;
+}
+/*Navber*/
+.header-nav ul{
+	 margin:0;
+	 padding:0;
+	list-style:none;
+}
+.header-nav li a{
+	color: #fff;
+	text-transform: uppercase;
+	font-size:10px;
+	font-family: Montserrat-SemiBold;
+}
+.header-nav li a p{
+	margin-bottom:2rem;
+	padding-top:1rem;
+}
+/*LOGO*/
+.logo{
+	padding-bottom:3rem;
+}
+.logo img{
+	width:auto;
+}
+/*Header Area*/
+ .main-header{
+   position: relative;
+   padding-bottom:10rem;
+ }
+.main-header::after {
+	position: absolute;
+	content: "";
+	left: 0;
+	bottom:0%;
+	width: 100%;
+	height:200px;
+	background: url(../images/header/bg.png) no-repeat;
+	background-size: 100% 100%;
+	top: auto;
+}
+/*header-details-area */
+.header-details-area {
+	padding-top:3rem;
+}
+.sato-san-img {
+	max-width: 500px;
+}
+.sato-san-img img{
+	width:100%;
+}
+.header-butto-area {
+	position: fixed;
+	top:4rem;
+	right: 15%;
+	z-index: 9;
+}
+.header-butto-area a {
+	margin-left: 2rem;
+}
+
+/*header-img*/
+.header-img {
+	display: flex;
+	justify-content: space-around;
+	margin: 3rem 0;
+	align-items: center;
+}
+.single-header-img {
+	max-width: 500px;
+	flex-basis: 40%;
+}
+.single-header-img img{
+	width: 100%;
+}
+.sato-background {
+	margin-left: -15rem;
+	
+}
+/*chef-food-area*/
+.chef-food-area{
+	padding-top:5rem;
+}
+.chef-food-header {
+	max-width: 30%;
+	text-align: center;
+}
+.chef-food-img {
+	text-align: right;
+	margin-top: 5rem;
+}
+.chef-food-cokker-area {
+	position: relative;
+	padding:0 5rem;
+	padding-bottom:26rem;
+}
+.cokker-area {
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
+}
+
+.chef-food-cokker-area::after {
+	position: absolute;
+	content: "";
+	background: url(../images/chef/s_chef.png) no-repeat 0 0 /cover;
+	width: 100%;
+	height: 100%;
+	top: 5%;
+	left: 0%;
+	z-index: -1;
+}
+.chef-mobile-background{
+	display: none;
+}
+.single-cook{
+	flex-basis:35%;
+}
+.cooker-img {
+	margin-top:-8rem;
+	position: relative;
+}
+.cooker-img::after{
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	top: 5%;
+	left: 0%;
+	z-index: -1;
+    background: url(../images/chef/s_cok.png) no-repeat 0 0 /100% 100%;
+}
+.cooker-img img {
+	width: 100%;
+}
+.cooker-text {
+	flex-basis: 35%;
+}
+
+.cooker-text p {
+	color: #040006;
+	font-size: 18px;
+	font-family:'Lao-UI';
+}
+.cooker-button {
+	margin-top: 2rem;
+}
+
+/*News Area*/
+.news-area {
+	margin-top: 7rem;
+}
+.news-img{
+	margin-top:2rem;
+}
+.news-img img {
+	width: 100%;
+	border-radius:9px;
+}
+ .news-text h3 {
+ 	color:#040006;
+	font-size: 27px;
+	font-weight: 400;
+	margin:3rem 0;
+}
+
+/*sato-san-background*/
+.sato-san-background {
+	background: url(../images/sato_nan.png) no-repeat;
+	background-size: cover;
+	padding: 20rem;
+	margin-top:5rem;
+}
+
+/*Service Area*/
+.service-area{
+	overflow: hidden;
+}
+.servic-header{
+	margin-top: 5rem;
+	margin-bottom: -10rem;
+}
+.service-bottom-background {
+	margin-left: -15rem;
+	margin-top: -7rem;
+	position: relative;
+	z-index: 2;
+}
+.service {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	padding-bottom: 40rem;
+	padding-right: 5rem;
+	margin-top: 15rem;
+}
+.service::after{
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	left: 0%;
+	top: 0;
+	background: url(../images/service/s_background.png) no-repeat;
+	background-size: 100% 100%;
+	z-index:-2;
+}
+.service-text{
+	flex-basis:35%;
+}
+.service-text-one h3{
+	position:relative; 
+	padding-top:5rem;
+    padding-bottom:3rem; 
+}
+.service-text-one h3::after {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 200px;
+	left: 0%;
+	top: 0;
+	background: url(../images/service/s_1.png) no-repeat;
+	background-size: 100% 100%;
+	z-index: -1;
+}
+.service-text-two h3 {
+	position: relative;
+	padding: 4rem 0;
+	text-align: inherit !important;
+	padding-left: 8rem !important;
+}
+.service-text-two h3::after {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 160px;
+	left: 0%;
+	top: 0;
+	background: url(../images/service/s_2.png) no-repeat;
+	background-size: 100% 100%;
+	z-index: -1;
+}
+.service-text h3 {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 400;
+	padding-left:5rem;
+	text-align: center;
+}
+.service-button{
+	position:relative;
+	left:30%;
+}
+#service-button-two {
+	margin-top: -3rem;
+}
+/*Contact Area*/
+.contact-area{
+	background:#040006;
+	padding-top:3rem;
+	margin-top:4rem;
+	position: relative;
+}
+.contact-area::after {
+	position: absolute;
+	content: "";
+	left: 0;
+	top: -13%;
+	width: 100%;
+	height: 250px;
+	background: url(../images/contact/service-bg.png) no-repeat;
+	background-size: 100% 100%;
+}
+.contact-header{
+	color: #fff;
+	margin-top: 10rem;
+}
+.contact-header h2{
+	color:#fff;
+}
+.single-contact-food-img {
+	text-align: right;
+}
+
+.contact-text{
+	padding-bottom:7rem;
+}
+.contact-text h3{
+	color: #fff;
+	font-size:25px;
+}
+.single-contact {
+	margin: 3rem 0;
+	width:65%;
+	display: flex;
+}
+.single-contact p{
+	font-size:18px;
+	color:#fff;
+}
+.single-contact p a{
+	color:#fff;
+}
+.single-contact span{
+	margin:0 .5rem;
+}
+.subscrib-area {
+	width: 40%;
+}
+.subscrib-area form{
+	position: relative;
+}
+.subscrib-area .form-control{
+	background:transparent;
+	border:1px solid #fff;
+	margin:1rem 0;
+}
+.subscrib-area [type="submit"]{
+	position:absolute;
+	right:0;
+	font-family:Keep-Calm;
+}
+.subscrib-area [type="submit"]:hover{
+	background:#cd4343;
+	color:#040006;
+}
+/*Footer Area*/
+.footer-area{
+	padding:1rem 0;
+}
+.footer{
+	justify-content: space-between;
+	align-items:center;
+	margin:0;
+}
+.copy-text p{
+	margin:0;
+	color:#040006;
+	font-size:16px;
+    font-family:'Lao-UI';
+}
+.footer-link {
+	display: flex;
+	justify-content: center;
+}
+.footer-link a i{
+	color: #fff;
+	background: #000;
+	font-size: 1.5rem;
+	border-radius: 50%;
+	margin: 0 .5rem;
+	width: 50px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition:.5s;
+}
+.footer-link a i:hover{
+	background:#B51923;
+}
+.footer-text a p{
+	color:#040006;
+	font-size:15px;
+	text-align: right;
+	margin:0;
+}
+
+
+
+
+
+/*ModalCss*/
+
+#chef-modal , #service-modal-one , #service-modal-two{
+	width: 100%;
+	height:100%;
+}
+.main-modal{
+	position: fixed;
+	overflow:auto;
+	top:0;
+	left: 0;
+	z-index: 999;
+}
+.modals-area {
+	background: #040006;
+	width:100%;
+	margin:auto;
+	padding:3rem 8rem;
+}
+.modal-area{
+	background:url(../images/modal_img/m_back.png) no-repeat 0 0/100% 100%;
+	position:relative;
+}
+.chef-modal:after{
+	position:absolute;
+	content:"";
+	width:100%;
+	height:100%;
+	left:0;
+	top: 0%;
+	background:url(../images/modal_img/d_chef_2.png) no-repeat 0 0/100% 100%;
+}
+.modal-close img{
+	position: absolute;
+	right: 2%;
+	top: 2%;
+	cursor:pointer;
+	z-index: 1;
+}
+.chef-modal-header {
+	width: 50%;
+	padding: 2rem;
+}
+.chef-modal-header::after {
+	position: absolute;
+	content: "";
+	width: 420px;
+	height: 150px;
+	top: 0px;
+	left: -30px;
+	background: url(../images/modal_img/d_m_h.png) no-repeat;
+	background-size: 100% 100%;
+}
+.chef-modal-header h2{
+	font-size:30px;
+	color:#fff;
+	position: relative;
+	z-index: 1
+}
+.chef-modal-header h5{
+	font-size:14px;
+	color:#fff;
+	position: relative;
+	z-index: 1
+}
+.modal-body{
+	z-index:2;
+}
+.chef-service {
+	display: flex;
+	justify-content: center;
+	padding: 2rem 0;
+	width: 70%;
+	margin: auto;
+}
+.chef-service img{
+	width: 100%;
+}
+.cooker-img-button{
+	display: none;
+}
+.mobile-chef{
+	display: none;
+}
+.modal-logo {
+	position: absolute;
+	bottom: 4%;
+	right: 2%;
+}
+
+/*Service Modal*/
+.service-modal {
+	padding: 5rem;
+	padding-bottom: 2rem;
+}
+.service-modal-img img {
+	width: 100%;
+}
+
+.service-modal-header h4 {
+	font-size: 25px;
+	color: #040006;
+	text-transform: uppercase;
+}
+.service-modal-header h2{
+	font-size:40px;
+	color: #040006;
+	text-transform: uppercase;
+}
+.service-modal-header h3{
+	font-size: 30px;
+	color: #040006;
+	text-transform: uppercase;
+}
+.service-modal-header h1{
+	font-size:55px;
+	color: #040006;
+	text-transform: uppercase;
+}
+.service-modal-paragraph {
+	margin-top: 2rem;
+	margin-bottom: 4rem;
+}
+.service-modal-text p {
+	font-size: 16px;
+	color: #040006;
+}
+
+.service-modal-contact-text h3 {
+	color: #040006;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.service-modal-contact-text p{
+	color: #040006;
+	font-size:14px;
+	margin:1rem 0;
+}
+
+.servic-modal-tipos-text{
+	margin:3rem 0;
+}
+.servic-modal-tipos-text h3 {
+	font-size: 19px;
+	text-transform: uppercase;
+	color:#040006 ;
+}
+.servic-modal-tipos-text h4{
+	font-size: 16px;
+	color:#040006 ;
+	
+	display: flex;
+}
+
+.single-tipos-text {
+	display: flex;
+	flex-direction: row;
+	margin: .5rem 0;
+}
+.single-tipos-text span{
+	margin:0 .5rem;
+}
+#chef-modal{
+	display: none;
+}
+#service-modal-one{
+	display:none;
+}
+#service-modal-two{
+	display: none;
+}
+
+.body{
+	position:fixed;
+	height: 100%;
+	width:100%;
+	top: 0;
+}
